@@ -226,9 +226,9 @@ while True:
             print("Sorry, I can't help you with that.")
           else:
             print("Wait, I can't do that right now.")
-      elif text >=32 and text <= 35:
+      elif text == 32:
         if warning == 0:
-          print('"',imput.upper(),'"')
+          print("Do you want an apple?")
         else:
           if funVal >=75 and funVal <= 79:
             print("I KNOW WHAT YOU DID.")
