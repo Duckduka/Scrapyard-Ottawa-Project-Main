@@ -125,7 +125,7 @@ while True:
       elif egg >= 201 and egg <= 250:
         print("You have decent luck.")
       elif egg == 337:
-        print("XXX Broken XXX")
+        print("You have egg luck!")
       else:
         print("You have bad luck!")
     else:
